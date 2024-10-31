@@ -1,0 +1,14 @@
+{
+  "name": "quick-share-hono-api",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.21.1",
+    "hono": "^4.6.8",
+    "prisma": "^5.21.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
